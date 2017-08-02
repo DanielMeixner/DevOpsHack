@@ -33,10 +33,11 @@ In this challenge, you will configure VSTS to trace and plan your work.
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
 |1| TODO | 10 |
-|1.| Add custom state *** | 10 |
-|1.| Add custom field *** | 10 |
+|1.| Add a custom state *** in your Work Item| 10 |
+|1.| Add a custom field *** | 10 |
 |1| Modify your work view  to display the new hierarchy level|10|
-|1| TODO: Customize Board |10|
+|1| Customize your board to display Id, owner and the value of your new custom field|10|
+|1| Customize your board to display items which haven't been moved for 3 days colored red |10|
 
 
 # DevOps Challenge \#3 - Version Control #
@@ -47,17 +48,16 @@ In this challenge, you will set up version control, upload code and configure po
 |-|-|-|
 |1| Create a new Git repository in your Team Project| 10 |
 |1| Clone our sample repository found here XXXX to your machine | 10 |
-|1| Modify the code to do XXXX  | 10 |
 |1| Push the code to your new repo in your Team Project  | 10 |
 |1| Modify your repo to require a pull request to merge code into your master branch  | 10 |
 |1|Modify your repo to require a Work Item linked to a pull request |10|
 |1| Configure your repo to require at least one of your colleagues as approver  | 10 |
-|1| Modify code locally, initiate and complete a pull request  | 10 |
+|1| Modify code locally to do XXX, initiate and complete a pull request. Link a work item and follow the review process. | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| Investigate the history of the file committed | 10 |
+|1| Investigate the history of the file committed following the trace from the work item | 10 |
 |-| (With several teammembers:) Create a merge conflict on purpose and solve it |-|
 |1| Integrate an external Git Repository (e.g. hosted on GitHub) and wire it up for CI ||
 |-| Discuss: What would be an appropriate code flow & branching stratgey in Git?|-|
@@ -99,11 +99,7 @@ In this challenge, you will release your application to Azure.
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
  |
-|1| Modify your Release Definition to automatically create an Azure Dev Test Lab virtual machine image with the latest version of your software installed|100|
-
-
-
-
+|1| (Todo/Demoonly: Modify your Release Definition to automatically create an Azure Dev Test Lab virtual machine image with the latest version of your software installed)|100|
 
 
 # DevOps Challenge \#5 - Automated Testing #
@@ -139,19 +135,12 @@ In this challenge, you will set up monitoring for your application in Azure.
 
 
 # DevOps Challenge  - Start in the cloud #
-In this challenge you will set up an end to end devops pipeline starting in Azure Portal.
+In this challenge you will set up an end to end devops pipeline starting in the Azure Portal.
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| In Azure Portal create a new Azure Web App| 10 |
 |1| Connect it to VSTS| 10 |
-|1| 
-
-
-## Bonus Goals ##
-| # | Bonus Goal   | Maximum score |
-|-|-|-|
-|1| xxx | 10 |
 
 
 
@@ -162,7 +151,8 @@ In this challenge, you will create a pipeline for container deployment.
 |-|-|-|
 |1| Dockerize your application | 10 |
 |1| Create a new build definition for your application which creates a container image| 10 |
-|1| Extend your pipeline to automatically deploy this image into a container registry ||
+|1| On Azure create an Azure Container Registry|10|
+|1| Extend your pipeline to automatically deploy this image into a container registry |10|
 
 
 
