@@ -66,7 +66,8 @@ In this challenge, you will set up version control, upload code and configure po
 
 
 # DevOps Challenge \#4 - Build Configuration for CI #
-In this challenge, you will set up a build definition for your project and configure it for continuous integration
+In this challenge, you will set up a build definition for your project and configure it for continuous integration. 
+If you need help check out the [Build Configuration Hints](/BuildConfiguration/BuildConfiguration.md)
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
