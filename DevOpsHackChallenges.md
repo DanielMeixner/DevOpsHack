@@ -94,25 +94,29 @@ In this challenge, you will release your application to Azure. If you need help 
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| Create a release definition which will be triggered automatically after successful build | 30 |
-|1| TODO: Add steps to deploy to an Azure Web App. Use the ARM Template provided in XXX.json | 10 |
-|1| Modify your environments to deploy to 2 different  deployment slots | 10 |
+|1| Add a task to deploy the required infrastructure on Azure. Use the ARM Template provided  in /env/Templates/FullEnvironmentSetupMerged.json  | 10 |
+|1| Modify your release definition to deploy your application and start the deployment.  | 10 |
+|1| Modify your  code locally, push the code and watch the pipeline.  | 10 |
+|1| Create another release environment which deploys to another deployment slot. | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
  |
-|1| (Todo/Demoonly: Modify your Release Definition to automatically create an Azure Dev Test Lab virtual machine image with the latest version of your software installed)|100|
-|1|Add a 3rd deployment slot by modifiying your ARM template|-|
+|1| (DEMO: Modify your Release Definition to automatically create an Azure Dev Test Lab virtual machine image with the latest version of your software installed)|100|
+|1|Add a 3rd deployment slot by modifiying your ARM template|20|
 
 
-# DevOps Challenge \#5 - Automated Testing #
+# DevOps Challenge #5 - Automated Testing #
 In this challenge, you will integrate automated tests into your application.
+If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
+
 
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1|  Create an automated URL test for your website which will be executed after release to  environment "Test" | 10 |
-|1|  Create an cloud based load test for your website which will be executed after release to test environment. Use the provided XXX.loadtest & XXX.webtest files. | 10 |
+|1|  Create an automated performance test for the start page of your website which will be executed after deploying to environment "Dev". Configure it to simulate 100 users over 2 minutes. Configure it to fail if response times are larger then 5 seconds.| 10 |
+|1|  Create an cloud based load test for your website which will be executed after release to test environment. Use the provided XXX.loadtest & XXX.webtest files. Check the results after you ran them.| 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
@@ -121,7 +125,7 @@ In this challenge, you will integrate automated tests into your application.
 
 
 
-# DevOps Challenge \#6 - Applicaton Monitoring #
+# DevOps Challenge #6 - Applicaton Monitoring #
 In this challenge, you will set up monitoring for your application in Azure.
 ## Achievements ##
 | # | Achievement   | Maximum score |
