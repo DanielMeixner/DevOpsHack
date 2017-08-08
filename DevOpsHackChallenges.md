@@ -89,7 +89,7 @@ If you need help check out the [Build Configuration Hints](/BuildConfiguration/B
 
 
 # DevOps Challenge \#4 - Release Management #
-In this challenge, you will release your application to Azure.
+In this challenge, you will release your application to Azure. If you need help check out the [Release Management Hints](/ReleaseManagement/ReleaseManagement.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
