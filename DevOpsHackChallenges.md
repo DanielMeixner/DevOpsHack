@@ -67,7 +67,7 @@ In this challenge, you will set up version control, upload code and configure po
 
 # DevOps Challenge \#4 - Build Configuration for CI #
 In this challenge, you will set up a build definition for your project and configure it for continuous integration. 
-If you need help check out the [Build Configuration Hints](/BuildConfiguration/BuildConfiguration.md)
+If you need help check out the [Build Configuration Hints](/BuildConfiguration/BuildConfiguration.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
@@ -95,13 +95,14 @@ In this challenge, you will release your application to Azure.
 |-|-|-|
 |1| Create a release definition which will be triggered automatically after successful build | 30 |
 |1| TODO: Add steps to deploy to an Azure Web App. Use the ARM Template provided in XXX.json | 10 |
-|1| Modify your environments to deploy to 3 different  deployment slots | 10 |
+|1| Modify your environments to deploy to 2 different  deployment slots | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
  |
 |1| (Todo/Demoonly: Modify your Release Definition to automatically create an Azure Dev Test Lab virtual machine image with the latest version of your software installed)|100|
+|1|Add a 3rd deployment slot by modifiying your ARM template|-|
 
 
 # DevOps Challenge \#5 - Automated Testing #
