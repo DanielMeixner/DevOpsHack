@@ -2,7 +2,7 @@
 
 ## Configure Build Triggers, add Unittests.
 
-![Build definition config](images/buildconfig1.jpg)
+![Build definition config](/images/buildconfig1.jpg)
 
 
 ## Create a private Build Agent
