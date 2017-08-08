@@ -71,6 +71,7 @@ In this challenge, you will set up a build definition for your project and confi
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| Create a new build def "CI Build" | 10 |
+|1| Configure your build definition to build the ASP.NET Core website | 10 |
 |1| Modify your build def for CI | 10 |
 |1| Clone your build definition, call the clone "PR Build" and set the trigger to Pull Request | 10 |
 |1| Modify your CI Build to run unit tests | 10 |
@@ -82,7 +83,7 @@ In this challenge, you will set up a build definition for your project and confi
 |1| Create a private build agent (e.g. on your local machine) and spin it up so it is connected to your account | 10 |
 |1| Modify your CI build to create a work item on failure | 10 |
 |1| TODO: Modify your Build to send a notification to your Slack channel after completion | 10 |
-|1| Modify your Build to query Web API XXX as a first step. |10|
+|1| TODO: Modify your Build to query Web API XXX as a first step. |10|
 
 
 
