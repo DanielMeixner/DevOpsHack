@@ -20,4 +20,4 @@ This is on purpose: We want you to explore and play with the different options o
 ![Create a Team Project called RedBlueTeamProject](/FirstSteps/images/VSTSLandingPage.PNG)
 
 ## Create a team named "Team Blue" ##
-![Create a team named "Team Blue"](/FirstSteps/Images/VSTSTeams.PNG)
+![Create a team named "Team Blue"](/FirstSteps/images/VSTSTeams.PNG)
