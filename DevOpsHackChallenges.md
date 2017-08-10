@@ -18,7 +18,7 @@ In this challenge you will create a VSTS account, invite users, set up a project
 
 # DevOps Challenge \#2 - Work Management and process customization #
 In this challenge, you will configure VSTS to trace and plan your work.
-
+If you need help check out the [Process Customization Hints](/ProcessCustomization/ProcessCustomization.md) and [WorkItem Management Hints](/VersionControl/VersionControl.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
@@ -29,6 +29,7 @@ In this challenge, you will configure VSTS to trace and plan your work.
 |1| TODO: Link work items, view history | 10 |
 |1| TODO: Modify dashboard to show Reports & Stats  | 10 |
 |1| Modify dashboard to show team members, your current workitems, nr of bugs | 10 |
+|1| Customize your board to display items which are done in green |10|
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
@@ -38,12 +39,12 @@ In this challenge, you will configure VSTS to trace and plan your work.
 |1.| Add a custom field *** | 10 |
 |1| Modify your work view  to display the new hierarchy level|10|
 |1| Customize your board to display Id, owner and the value of your new custom field|10|
-|1| Customize your board to display items which haven't been moved for 3 days colored red |10|
+
 
 
 # DevOps Challenge \#3 - Version Control #
 In this challenge, you will set up version control, upload code and configure policies.
-
+If you need help check out the [Version Control Hints](/VersionControl/VersionControl.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
