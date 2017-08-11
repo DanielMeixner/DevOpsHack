@@ -95,7 +95,7 @@ In this challenge, you will release your application to Azure. If you need help 
 |-|-|-|
 |1| Create a release definition which will be triggered automatically after successful build | 30 |
 |1| Add a task to deploy the required infrastructure on Azure. Use the ARM Template provided  in /env/Templates/FullEnvironmentSetupMerged.json  | 10 |
-|1| Modify your release definition to deploy your application and start the deployment.  | 10 |
+|1| Modify your release definition to deploy your application.  | 10 |
 |1| Modify your  code locally, push the code and watch the pipeline.  | 10 |
 |1| Create another release environment which deploys to another deployment slot. | 10 |
 
@@ -104,7 +104,7 @@ In this challenge, you will release your application to Azure. If you need help 
 |-|-|-|
  |
 |1| (DEMO: Modify your Release Definition to automatically create an Azure Dev Test Lab virtual machine image with the latest version of your software installed)|100|
-|1|Add a 3rd deployment slot by modifiying your ARM template|20|
+|1|Add a 3rd deployment slot by modifiying your ARM template.|20|
 
 
 # DevOps Challenge #5 - Automated Testing #
@@ -130,9 +130,14 @@ In this challenge, you will set up monitoring for your application in Azure.
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| Add application insights for your app in Azure portal | 10 |
-|1| TODO | 10 |
-|1| TODO | 10 |
+|1| Find application insights component for your app in Azure portal. Search for the different instances of AI for your slots. | 10 |
+|1| Add Release Annotations for your release definition for every environment. What could you do to avoid doing modifications like this for every environment?| 10 |
+|1| TODO: Custome Telemetry | 10 |
+|1| TODO: Instrument your Web Pages | 10 |
+|1| Add an Availability test from 5 locations in a 5 min frequency with dependencies; Match content for a string found in your startpage. Set alerts to send you an email. Provoke an error.| 10 |
+|1| Find the place to create a work item from AI in Azure Portal. Configure the settings to create a Work Item in your VSTS project. | 10 |
+|1 Adjust your dashboard to show AI metrics | 10 |
+
 
 
 ## Bonus Goals ##
