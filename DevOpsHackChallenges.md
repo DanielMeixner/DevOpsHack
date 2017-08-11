@@ -4,6 +4,7 @@ In this challenge you will create a VSTS account, invite users, set up a project
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
+|1| Create a Microsoft Account on https://signup.live.com/| 10 |
 |1| Create a VSTS account on http://visualstudio.com| 10 |
 |1| Give your colleagues access to your account | 10 |
 |1| Give your team members an appropriate security level | 10 |
