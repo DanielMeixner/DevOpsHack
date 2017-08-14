@@ -13,6 +13,8 @@ In this challenge you will create a VSTS account, invite users, set up a project
 |1| Create a team named "Team Blue" within your Team Project and invite your colleagues |10|
 
 ## Bonus Goals ##
+| # | Achievement   | Maximum score |
+|-|-|-|
 |1| Create another team named "Team Red" within your Team Project and invite some colleagues |10|
 
 
