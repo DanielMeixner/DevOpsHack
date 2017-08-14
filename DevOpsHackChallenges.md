@@ -29,8 +29,8 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 |1.| Create a custom process template called "RedBlueAgileTemplate" based on agile template | 10 |
 |1.| Create a new Work Item Type "Vision" above Scenario | 10 |
 |1.| Modify your team project to inherit from this template. | 10 |
-|1| TODO: Create a bunch of work items with releationship | 10 |
-|1| TODO: Link work items, view history | 10 |
+|1| Create work items with releationship helping you manage the next challenges. Create them hieracicall manner  | 10 |
+|1| Link work items, view history | 10 |
 |1| TODO: Modify dashboard to show Reports & Stats  | 10 |
 |1| Modify dashboard to show team members, your current workitems, nr of bugs | 10 |
 |1| Customize your board to display items which are done in green |10|
@@ -53,7 +53,7 @@ If you need help check out the [Version Control Hints](/VersionControl/VersionCo
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| Create a new Git repository in your Team Project| 10 |
-|1| Clone our sample repository found here XXXX to your machine | 10 |
+|1| Clone our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your machine | 10 |
 |1| Push the code to your new repo in your Team Project  | 10 |
 |1| Modify your repo to require a pull request to merge code into your master branch  | 10 |
 |1|Modify your repo to require a Work Item linked to a pull request |10|
