@@ -21,7 +21,16 @@ Navigate to the folder containing your git repo
 
 ## Modify your repo to require a pull request to merge code into your master branch ##
 ![Modify your repo to require a pull request to merge code into your master branch](/VersionControl/images/VSTSProjectBranch.PNG)
+
 ## Modify your repo to require a Work Item linked to a pull request ##
 ![Modify your repo to require a Work Item linked to a pull request](/VersionControl/images/VSTSBranchPolicie.PNG)
+
 ## Configure your repo to require at least one of your colleagues as approver ##
 ![Configure your repo to require at least one of your colleagues as approver](/VersionControl/images/VSTSBranchPolicie.PNG)
+
+##  Modify code locally then proceeding to create a pull request ##
+![Create a branch and check it out](/VersionControl/images/VSTSProjectCodeFiles.PNG)
+
+![Modify code locally ](/VersionControl/images/ChangeCodeHereMaybe.PNG)
+
+![Commit your change to your new branch then proceed to create a pull request into master](/VersionControl/images/VSTSCodePullRequest.PNG)

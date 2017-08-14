@@ -58,7 +58,7 @@ If you need help check out the [Version Control Hints](/VersionControl/VersionCo
 |1| Modify your repo to require a pull request to merge code into your master branch  | 10 |
 |1|Modify your repo to require a Work Item linked to a pull request |10|
 |1| Configure your repo to require at least one of your colleagues as approver  | 10 |
-|1| Modify code locally to do XXX, initiate and complete a pull request. Link a work item and follow the review process. | 10 |
+|1| Create a new Branch. Check it out and modify code locally changing the displayed Name of the Demo Website. Commit the change, then initiate and complete a pull request. Link a work item and follow the review process. | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
@@ -68,6 +68,7 @@ If you need help check out the [Version Control Hints](/VersionControl/VersionCo
 |1| Integrate an external Git Repository (e.g. hosted on GitHub) and wire it up for CI ||
 |-| Discuss: What would be an appropriate code flow & branching stratgey in Git?|-|
 |-| Discuss: What are the main differentiators between TFVS and Git?  |-|
+|1| Revisite this Challenge after you have successfully created a Build definition and change the Branch Policie to also require a successful build. Create a Pull Request to see it working. |10|
 
 
 
