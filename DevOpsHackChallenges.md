@@ -1,5 +1,7 @@
 # DevOps Challenge \#1 - VSTS Project Setup #
-In this challenge you will create a VSTS account, invite users, set up a project and create a team with your colleagues.
+In this challenge you will create a VSTS account, invite users, set up a project and create a team with your colleagues. If you need help check out the [hints for this challenge](/FirstSteps/FirstSteps.md).
+
+ 
 
 ## Achievements ##
 | # | Achievement   | Maximum score |
@@ -13,7 +15,7 @@ In this challenge you will create a VSTS account, invite users, set up a project
 |1| Create a team named "Team Blue" within your Team Project and invite your colleagues |10|
 
 ## Bonus Goals ##
-| # | Achievement   | Maximum score |
+| # | Bonus Goal   | Maximum score |
 |-|-|-|
 |1| Create another team named "Team Red" within your Team Project and invite some colleagues |10|
 
