@@ -6,8 +6,8 @@ This is on purpose: We want you to explore and play with the different options o
 ![Create a new Git repository in your Team Project](/VersionControl/images/VSTSProjectCode.PNG)
 
 ## Clone our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your machine ##
-![Clone our sample repository found here to your machine](/VersionControl/images/GitCloneURL.PNG)
 ![Clone our sample repository found here to your machine](/VersionControl/images/GitCloneURL1.PNG)
+![Clone our sample repository found here to your machine](/VersionControl/images/GitCloneURL.PNG)
 ## Push the code to your new repo in your Team Project ##
 ![Push the code to your new repo in your Team Project](/VersionControl/images/VSTSEmptyRepo.PNG)
 
@@ -26,7 +26,7 @@ Navigate to the folder containing your git repo
 ![Modify your repo to require a Work Item linked to a pull request](/VersionControl/images/VSTSBranchPolicie.PNG)
 
 ## Configure your repo to require at least one of your colleagues as approver ##
-![Configure your repo to require at least one of your colleagues as approver](/VersionControl/images/VSTSBranchPolicie.PNG)
+![Configure your repo to require at least one of your colleagues as approver](/VersionControl/images/VSTSBranchPolicie1.PNG)
 
 ##  Modify code locally then proceeding to create a pull request ##
 ![Create a branch and check it out](/VersionControl/images/VSTSProjectCodeFiles.PNG)
