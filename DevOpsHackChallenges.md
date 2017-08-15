@@ -6,43 +6,44 @@ In this challenge you will create a VSTS account, invite users, set up a project
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| Create a Microsoft Account on https://signup.live.com/| 10 |
-|1| Create a VSTS account on http://visualstudio.com| 10 |
-|1| Give your colleagues access to your account | 10 |
-|1| Give your team members an appropriate security level | 10 |
-|1| Create a Team Project called RedBlueTeamProject within your VSTS account| 10 |
-|1| Invite users to your new Team Project | 10 |
-|1| Create a team named "Team Blue" within your Team Project and invite your colleagues |10|
+|1.| Create a Microsoft Account on https://signup.live.com/| 10 |
+|2.| Create a VSTS account on http://visualstudio.com| 10 |
+|3.| Give your colleagues access to your account | 10 |
+|4.| Give your team members an appropriate security level | 10 |
+|5.| Create a Team Project called RedBlueTeamProject within your VSTS account| 10 |
+|6.| Invite users to your new Team Project | 10 |
+|7.| Create a team named "Team Blue" within your Team Project and invite your colleagues |10|
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| Create another team named "Team Red" within your Team Project and invite some colleagues |10|
+|1.| Create another team named "Team Red" within your Team Project and invite some colleagues |10|
 
 
 # DevOps Challenge \#2 - Work Management and process customization #
 In this challenge, you will configure VSTS to trace and plan your work.
-If you need help check out the [Process Customization Hints](/ProcessCustomization/ProcessCustomization.md) and [WorkItem Management Hints](/VersionControl/VersionControl.md).
+If you need help check out the [Process Customization Hints](/ProcessCustomization/ProcessCustomization.md) and [WorkItem Management Hints](/WorkItemManagement/WorkManagement.md) plus the [Dashboard customization Hints](/Dashboard/Dashboard.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1.| Create a custom process template called "RedBlueAgileTemplate" based on agile template | 10 |
-|1.| Create a new Work Item Type "Vision" above Scenario | 10 |
-|1.| Modify your team project to inherit from this template. | 10 |
-|1| Create work items with releationship helping you manage the next challenges. Create them hieracicall manner  | 10 |
-|1| Link work items, view history | 10 |
-|1| TODO: Modify dashboard to show Reports & Stats  | 10 |
-|1| Modify dashboard to show team members, your current workitems, nr of bugs | 10 |
-|1| Customize your board to display items which are done in green |10|
+|2.| Create a new Work Item Type "Vision" above Scenario | 10 |
+|3.| Modify your team project to inherit from this template. | 10 |
+|4.| Customize your board to display items which are done in green + also display Epics |10|
+|5.| Create work items with releationship helping you manage the next challenges and keep track of your progress. Create them in a hierarchical manner. Starting at Feature / Epic level.  | 10 |
+|6.| Link work items, view history | 10 |
+|7.| Modify dashboard to show Reports & Stats (Come back to this after completing challenges 4, 5 and 6 to finish this Goal)  | 10 |
+|8.| Modify dashboard to show team members, your current workitems, nr of bugs | 10 |
+
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| TODO | 10 |
-|1.| Add a custom state *** in your Work Item| 10 |
-|1.| Add a custom field *** | 10 |
-|1| Modify your work view  to display the new hierarchy level|10|
-|1| Customize your board to display Id, owner and the value of your new custom field|10|
+|1.| Add a few styling rules to your board highlighting important Items ( e.g. Bugs or Items with a special Tag)| 10 |
+|2.| Add a custom state Testing in your Work Item| 10 |
+|3.| Add a custom field 'Coffee consumed(in liters)' on your work item | 10 |
+|4.| Modify your work view  to display the new hierarchy level|10|
+|5.| Customize your board to display Id, owner and the value of your new custom field|10|
 
 
 
@@ -52,23 +53,23 @@ If you need help check out the [Version Control Hints](/VersionControl/VersionCo
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| Create a new Git repository in your Team Project| 10 |
-|1| Clone our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your machine | 10 |
-|1| Push the code to your new repo in your Team Project  | 10 |
-|1| Modify your repo to require a pull request to merge code into your master branch  | 10 |
-|1|Modify your repo to require a Work Item linked to a pull request |10|
-|1| Configure your repo to require at least one of your colleagues as approver  | 10 |
-|1| Create a new Branch. Check it out and modify code locally changing the displayed Name of the Demo Website. Commit the change, then initiate and complete a pull request. Link a work item and follow the review process. | 10 |
+|1.| Create a new Git repository in your Team Project| 10 |
+|2.| Clone our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your machine | 10 |
+|3.| Push the code to your new repo in your Team Project  | 10 |
+|4.| Modify your repo to require a pull request to merge code into your master branch  | 10 |
+|5.|Modify your repo to require a Work Item linked to a pull request |10|
+|6.| Configure your repo to require at least one of your colleagues as approver  | 10 |
+|7.| Create a new Branch. Check it out and modify code locally changing the displayed Name of the Demo Website. Commit the change, then initiate and complete a pull request. Link a work item and follow the review process. | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| Investigate the history of the file committed following the trace from the work item | 10 |
+|1.| Investigate the history of the file committed following the trace from the work item | 10 |
 |-| (With several teammembers:) Create a merge conflict on purpose and solve it |-|
-|1| Integrate an external Git Repository (e.g. hosted on GitHub) and wire it up for CI ||
+|2.| Integrate an external Git Repository (e.g. hosted on GitHub) and wire it up for CI |-|
 |-| Discuss: What would be an appropriate code flow & branching stratgey in Git?|-|
 |-| Discuss: What are the main differentiators between TFVS and Git?  |-|
-|1| Revisite this Challenge after you have successfully created a Build definition and change the Branch Policie to also require a successful build. Create a Pull Request to see it working. |10|
+|3.| Revisite this Challenge after you have successfully created a Build definition and change the Branch Policie to also require a successful build. Create a Pull Request to see it working. |10|
 
 
 
