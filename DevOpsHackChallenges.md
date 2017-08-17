@@ -131,7 +131,7 @@ If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
 
 # DevOps Challenge #6 - Applicaton Monitoring #
 In this challenge, you will set up monitoring for your application in Azure.
-If you need help check out the [Auto Test Hints](/ApplicationMonitoring/ApplicationMonitoring.md).
+If you need help check out the [Application Monitoring Hints](/ApplicationMonitoring/ApplicationMonitoring.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
@@ -149,16 +149,16 @@ If you need help check out the [Auto Test Hints](/ApplicationMonitoring/Applicat
 |1| Create a bug from the Azure portal | 10 |
 
 
-# DevOps Challenge 7 - DevOps for Container #
+# TODO: DevOps Challenge 7 - DevOps for Container #
 In this challenge, you will create a pipeline for container deployment.
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| Dockerize your application | 10 |
-|1| Create a new build definition for your application which creates a container image| 10 |
-|1| On Azure create an Azure Container Registry|10|
-|1| Extend your pipeline to automatically deploy this image into a container registry |10|
-|1| Create a release pipeline which deploys your container to Azure Container Instances|10|
+|1| "Dockerize your application" by creating a Dockerfile for it. | 10 |
+|1| Create a new build definition for your application which creates a container image.| 10 |
+|1| On Azure create an Azure Container Registry.|10|
+|1| Extend your pipeline to automatically deploy this image into a container registry. |10|
+|1| Create a release pipeline which deploys your container to Azure Container Instances.|10|
 
 # DevOps Challenge 8 - Start in the cloud #
 In this challenge you will set up an end to end devops pipeline starting in the Azure Portal. Azure Portal can do a lot of the steps we did so far on it's own. 
