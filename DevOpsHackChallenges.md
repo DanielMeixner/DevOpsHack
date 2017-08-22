@@ -129,16 +129,18 @@ If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
 |-|-|-|
 |1| Using VS create a new Loadtest and use it during release. | 10 |
 
-# DevOps Challenge #6 - Applicaton Monitoring #
+# DevOps Challenge #6 - Application Monitoring #
 In this challenge, you will set up monitoring for your application in Azure.
 If you need help check out the [Application Monitoring Hints](/ApplicationMonitoring/ApplicationMonitoring.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| Find the Application Insights component for your app in Azure portal. Search for the different instances of AI for your slots. | 10 |
-|1| TODO: Add Release Annotations for your release definition for every environment. What could you do to avoid doing modifications like this for every environment?| 10 |
-|1| TODO: Custome Telemetry | 10 |
-|1| TODO: Instrument your Web Pages | 10 |
+|1| Add Release Annotations for your release definition for every environment. What could you do to avoid doing modifications like this for every environment? What is the problem with specifying an AppID in the task? How could you solve this problem?| 10 |
+|1| TODO: Collect a custom telemetry event in your webpage for whenever someone triggers a product search. Collect the time it takes to run the search. Hint: ApplicationInsights is already pre-wired. All you have to do ist specify the line of code in SearchController.cs. See hint file for details. | 10 |
+|1| TODO: Instrument your client Web Pages | 10 |
+|1| Now re-deploy your application and use it to see if data is being logged. View the Azure portal to find the logs.  | 10 |
+|1| Create charts in the metrics explorer to display your new metrics. |10| 
 |1| Add an Availability test from 5 locations in a 5 min frequency with dependencies; Match content for a string found in your startpage. Set alerts to send you an email. Provoke an error.| 10 |
 |1| Find the place to create a work item from AI in Azure Portal. Configure the settings to create a Work Item in your VSTS project. | 10 |
 |1| Adjust your dashboard to show AI metrics. | 10 |
@@ -146,7 +148,8 @@ If you need help check out the [Application Monitoring Hints](/ApplicationMonito
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| Create a bug from the Azure portal | 10 |
+|1| Create a bug from the Azure portal. | 10 |
+|1| Solve the problem with the specified AppId in the Release Annotation task. | 10 |
 
 
 # TODO: DevOps Challenge 7 - DevOps for Container #
