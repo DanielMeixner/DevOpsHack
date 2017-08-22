@@ -7,24 +7,44 @@ This is on purpose: We want you to explore and play with the different options o
 In the file /Controllers/SearchController.cs in method Index() provide these lines of code:
 
 ```
+// add ApplicationInsights namespace
+using Microsoft.ApplicationInsights;
+
+// create an instance of the telemetry client in class scope
+public class SearchController : Controller
+    {
+    ...
+     private TelemetryClient appInsights = new TelemetryClient();
+    ...
+    }
+
+// in method Index() find the appropriate lines where to put the following lines
+
 // start timer
 var startTime = System.DateTime.Now;
 
-// run search
-var result = await _search.Search(q);
 
-// compute time
+// compute passed time 
 var measurements = new Dictionary<string, double>()
     {
        {"SearchTimeInMilliseconds", System.DateTime.Now.Subtract(startTime).TotalMilliseconds }
     };
 
 // log time
-_telemetry.TrackEvent("Search/Server/Run", null, measurements);
+appInsights.TrackEvent("Search/Server/Run", null, measurements);
 
 ```
 
 
+## Collect telemetry about usage of carousell
+```
+ $('.left.carousel-control').click(function () {          
+            window.appInsights.trackEvent('Rotate.Left');
+        });
+ $('.right.carousel-control').click(function () {            
+            window.appInsights.trackEvent('Rotate.Right');
+        });
+```
 
 
 
@@ -96,3 +116,7 @@ $aiId = $aiProps | ConvertFrom-Json | Select -expand properties | select AppId.v
 
 Write-Host "##vso[task.setvariable variable=gAiId;]$aiId"
 ```
+
+
+## Create new charts in the Azure Portal for custom metrics
+![Add AI charts](/ApplicationMonitoring/images/ApplicationMonitoringCharts.jpg)

@@ -121,13 +121,14 @@ If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1|  Create an automated performance test for the start page of your website which will be executed after deploying to environment "Dev". Configure it to simulate 100 users over 2 minutes. Configure it to fail if response times are larger then 5 seconds.| 10 |
-|1|  Create an cloud based load test for your website which will be executed after release to test environment. Use the provided XXX.loadtest & XXX.webtest files. Check the results after you ran them.| 10 |
+|1|  Create an automated performance test for the start page of your website which will be executed after deploying to environment "Dev". Configure it to simulate 100 users over 2 minutes. Configure it to fail if response times are larger then 5 seconds. *Hint: There's a task which will help you.*| 10 |
+|1|  Create an cloud based load test for your website which will be executed after release to test environment. Use the provided XXX.loadtest & XXX.webtest files. Check the results after you ran the tests.| 10 |
+
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| Using VS create a new Loadtest and use it during release. | 10 |
+|1| Visual Studio users only: Use VS to create a new Loadtest and use it during release. | 10 |
 
 # DevOps Challenge #6 - Application Monitoring #
 In this challenge, you will set up monitoring for your application in Azure.
@@ -135,21 +136,20 @@ If you need help check out the [Application Monitoring Hints](/ApplicationMonito
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| Find the Application Insights component for your app in Azure portal. Search for the different instances of AI for your slots. | 10 |
-|1| Add Release Annotations for your release definition for every environment. What could you do to avoid doing modifications like this for every environment? What is the problem with specifying an AppID in the task? How could you solve this problem?| 10 |
-|1| TODO: Collect a custom telemetry event in your webpage for whenever someone triggers a product search. Collect the time it takes to run the search. Hint: ApplicationInsights is already pre-wired. All you have to do ist specify the line of code in SearchController.cs. See hint file for details. | 10 |
-|1| TODO: Instrument your client Web Pages | 10 |
-|1| Now re-deploy your application and use it to see if data is being logged. View the Azure portal to find the logs.  | 10 |
-|1| Create charts in the metrics explorer to display your new metrics. |10| 
-|1| Add an Availability test from 5 locations in a 5 min frequency with dependencies; Match content for a string found in your startpage. Set alerts to send you an email. Provoke an error.| 10 |
-|1| Find the place to create a work item from AI in Azure Portal. Configure the settings to create a Work Item in your VSTS project. | 10 |
-|1| Adjust your dashboard to show AI metrics. | 10 |
+|1| **Understanding Application Insights**: Find the Application Insights (AI) component(s) for your app in Azure portal. Search for the different instances of AI for your slots. Check the default charts and take a look at how to create own charts. Search for the Application ID and the instrumentation key which "wire up" your application with correspondig telemetry services. Try to understand how the wiring works under the hood for the different slots. | 10 |
+|1| **Deployment Markers:** You want to be able to see application releases in your AI charts. Add Release Annotations by adding a new task in your release definition for every environment. What could you do to avoid doing modifications like this for every environment? What is the problem with specifying an AppID in the task? How could you solve this problem? (You don't have to solve it, but think about how to solve it.) | 10 |
+|1| **Custom Server Telemetry:** Collect a custom telemetry event in your webpage for whenever someone triggers a product search. Collect the time it takes to run the search. *Hint: ApplicationInsights is already pre-wired. All you have to do ist specify the line of code in SearchController.cs. You can check the OrdersController.cs file which is already tracing for code snippets. See hint file for details.* | 10 |
+|1| **Custom Client Telemetry:**  Instrument your client Web Pages. Add a code snippet to track usage of the carousel found on the home page. Are customers actually using the option to flip through offerings? *Hint: Application Insights is already pre-wired. All you have to do is to specify the logging with a small Java Script snippet. You can check **/Views/ShoppingCart/Index.cshtml** for an analog procedure or check the hints file.* | 10 |
+|1| **View AI logs & analytics:** Now re-deploy your application and use it to see if data is being logged. View the Azure portal to find the logs in the correspoding AI component. You don't have to deploy to every slot for this exercise. In your AI portal check the analytics button to run some SQL-like queries.   | 10 |
+|1| **Custom Charts** Create charts in the metrics explorer to display your new metrics. |10| 
+|1| **Availability Test:** Add an Availability test from 5 locations in a 5 min frequency with dependencies; Match content for a string found in your startpage. Set alerts to send you an email. Provoke an error.| 10 |
+|1| **Work Item Creation:** Find the place to create a work item from AI in Azure Portal. Configure the settings to create a Work Item in your VSTS project. | 10 |
+|1| **Dashboard** Adjust your VSTS dashboard to show AI metrics. | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| Create a bug from the Azure portal. | 10 |
-|1| Solve the problem with the specified AppId in the Release Annotation task. | 10 |
+|1| Solve the problem with the specified AppId in the Release Annotation task. | 100 |
 
 
 # TODO: DevOps Challenge 7 - DevOps for Container #
