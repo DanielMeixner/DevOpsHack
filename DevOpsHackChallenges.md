@@ -92,17 +92,15 @@ If you need help check out the [Build Configuration Hints](/BuildConfiguration/B
 |-|-|-|
 |1| Create a private build agent (e.g. on your local machine or any VM) and spin it up so it is connected to your account. (You can find the required agent application in your VSTS portal for download). | 10 |
 |1| Modify your CI build to create a work item on failure. | 10 |
-|1| TODO: Modify your Build to send a notification to your Slack channel after completion. | 10 |
-|1| TODO: Modify your Build to query Web API XXX as a first step. |10|
 
 
 
-# DevOps Challenge \#4 - Release Management #
+# DevOps Challenge \#5 - Release Management #
 In this challenge, you will release your application to Azure. If you need help check out the [Release Management Hints](/ReleaseManagement/ReleaseManagement.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| Create a release definition which will be triggered automatically after a successful build of "CI build" | 30 |
+|1| Create a release definition which will be triggered automatically after a successful build of "CI build". | 30 |
 |1| Add a task to deploy the required infrastructure on Azure. Use the ARM Template provided  in /env/Templates/FullEnvironmentSetupMerged.json.  | 10 |
 |1| Modify your release definition to deploy your application.| 10 |
 |1| Modify your code locally, push the code and watch the pipeline. | 10 |
@@ -111,10 +109,10 @@ In this challenge, you will release your application to Azure. If you need help 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1|Add a 3rd deployment slot called "Test" by modifiying your ARM template accordingly.|20|
-|1| DEMO: Modify your Release Definition to automatically create an Azure Dev Test Lab virtual machine image with the latest version of your software installed|100|
+|1|Add a 3rd deployment slot called "Test" by modifiying your ARM template accordingly.|50|
 
-# DevOps Challenge #5 - Automated Testing #
+
+# DevOps Challenge #6 - Automated Testing #
 In this challenge, you will integrate automated tests into your application.
 If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
 
@@ -128,21 +126,23 @@ If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
 |-|-|-|
-|1| Visual Studio users only: Use VS to create a new Loadtest and use it during release. | 10 |
+|1| Visual Studio users only: Use VS to record a new webtest and use it during release. | 10 |
 
-# DevOps Challenge #6 - Application Monitoring #
+# DevOps Challenge #7 - Application Monitoring #
 In this challenge, you will set up monitoring for your application in Azure.
 If you need help check out the [Application Monitoring Hints](/ApplicationMonitoring/ApplicationMonitoring.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| **Understanding Application Insights**: Find the Application Insights (AI) component(s) for your app in Azure portal. Search for the different instances of AI for your slots. Check the default charts and take a look at how to create own charts. Search for the Application ID and the instrumentation key which "wire up" your application with correspondig telemetry services. Try to understand how the wiring works under the hood for the different slots. | 10 |
-|1| **Deployment Markers:** You want to be able to see application releases in your AI charts. Add Release Annotations by adding a new task in your release definition for every environment. What could you do to avoid doing modifications like this for every environment? What is the problem with specifying an AppID in the task? How could you solve this problem? (You don't have to solve it, but think about how to solve it.) | 10 |
-|1| **Custom Server Telemetry:** Collect a custom telemetry event in your webpage for whenever someone triggers a product search. Collect the time it takes to run the search. *Hint: ApplicationInsights is already pre-wired. All you have to do ist specify the line of code in SearchController.cs. You can check the OrdersController.cs file which is already tracing for code snippets. See hint file for details.* | 10 |
-|1| **Custom Client Telemetry:**  Instrument your client Web Pages. Add a code snippet to track usage of the carousel found on the home page. Are customers actually using the option to flip through offerings? *Hint: Application Insights is already pre-wired. All you have to do is to specify the logging with a small Java Script snippet. You can check **/Views/ShoppingCart/Index.cshtml** for an analog procedure or check the hints file.* | 10 |
-|1| **View AI logs & analytics:** Now re-deploy your application and use it to see if data is being logged. View the Azure portal to find the logs in the correspoding AI component. You don't have to deploy to every slot for this exercise. In your AI portal check the analytics button to run some SQL-like queries.   | 10 |
+|1| **Understanding Application Insights**: Find the Application Insights (AI) component(s) for your app in Azure portal. Search for the different instances of AI for your slots. Check the default charts and take a look at how to create own charts. Search for the Application ID and the instrumentation key which "wire up" your application with correspondig telemetry services. Try to understand how the wiring works under the hood for the different slots. | 30 |
+|1| **Deployment Markers:** You want to be able to see application releases in your AI charts. Add Release Annotations by adding a new task in your release definition for every environment. 
+|-| What could you do to avoid doing modifications like this for every environment?||
+|-| What is the problem with specifying an AppID in the task? How could you solve this problem? (You don't have to solve it, but think about how to solve it.) | 30 |
+|1| **Custom Server Telemetry:** Collect a custom telemetry event in your webpage for whenever someone triggers a product search. Collect the time it takes to run the search. *Hint: ApplicationInsights is already pre-wired. All you have to do ist specify the line of code in SearchController.cs. You can check the OrdersController.cs file which is already tracing for code snippets. See hint file for details.* | 50 |
+|1| **Custom Client Telemetry:**  Instrument your client Web Pages. Add a code snippet to track usage of the carousel found on the home page. Being responsible for the website you might want to know: Are customers actually using the option to flip through offerings? *Hint: Application Insights is already pre-wired. All you have to do is to specify the logging with a small Java Script snippet. You can check **/Views/ShoppingCart/Index.cshtml** for an analog procedure or check the hints file.* | 50 |
+|1| **View AI logs & analytics:** Now re-deploy your application and use it to see if data is being logged. View the Azure portal to find the logs in the correspoding AI component. You don't have to deploy to every slot for this exercise. In your AI portal check the analytics button to run some SQL-like queries.   | 20 |
 |1| **Custom Charts** Create charts in the metrics explorer to display your new metrics. |10| 
-|1| **Availability Test:** Add an Availability test from 5 locations in a 5 min frequency with dependencies; Match content for a string found in your startpage. Set alerts to send you an email. Provoke an error.| 10 |
+|1| **Availability Test:** Add an Availability test in Azure Portal from 5 locations in a 5 min frequency with dependencies; Match content for a string found in your startpage. Set alerts to send you an email. Provoke an error.| 20 |
 |1| **Work Item Creation:** Find the place to create a work item from AI in Azure Portal. Configure the settings to create a Work Item in your VSTS project. | 10 |
 |1| **Dashboard** Adjust your VSTS dashboard to show AI metrics. | 10 |
 
@@ -152,19 +152,20 @@ If you need help check out the [Application Monitoring Hints](/ApplicationMonito
 |1| Solve the problem with the specified AppId in the Release Annotation task. | 100 |
 
 
-# TODO: DevOps Challenge 7 - DevOps for Container #
+# TODO: DevOps Challenge 8 - Containers #
 In this challenge, you will create a pipeline for container deployment. If you need help check out the [Container Hints](/Containers/Containers.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| "Dockerize your application" by creating a Dockerfile for it. You don't have to have Docker installed to create a Dockerfile. In doubt, check the hints file. | 10 |
-
+|1| In Azure Portal create an Azure Container Registry.|10|
 |1| Create a new build definition in VSTS for your application which creates a container image.| 10 |
-|1| In Azure Portal create an Azure Container Registry. Extend your pipeline to automatically deploy your image into your container registry. |10|
-|1| Run your container image as an Azure Container instance manually. |10| 
+|1| Extend your pipeline to automatically deploy your image into your container registry. |10|
+|1| If you have Docker installed, run the image locally and pull it from your Azure Registry. |10|
+|1| Running a container locally is rather boring. Run your container image as an Azure Container Instance manually on a managed container platform. |10| 
 |1| Create a release pipeline which deploys your container to Azure Container Instances.|10|
 
-# DevOps Challenge 8 - Start in the cloud #
+# DevOps Challenge 9 - Start in the cloud #
 In this challenge you will set up an end to end devops pipeline starting in the Azure Portal. Azure Portal can do a lot of the steps we did so far on it's own. 
 If you need help check out the [Azure Portal Deployment Hints](/StartInTheCloud/StartInTheCloud.md).
 ## Achievements ##
@@ -174,12 +175,5 @@ If you need help check out the [Azure Portal Deployment Hints](/StartInTheCloud/
 |1| Connect it to VSTS and configure it to configure a pipeline for you.| 10 |
 |1| Investigate the pipeline and trigger a release. | 10 |
 
-<!-- # Bonus Challenge 9 - Extensibility #
-In this challenge, you will create a custom extension for your application.
-## Achievements ##
-| # | Achievement   | Maximum score |
-|-|-|-|
-|1| Clone XXXX and modify the code to create a new extension called YYYY| 10 |
-|1| Investigate the code and change it to accept additional input and to XXXX  | 10 |
-|1| Build the extension and upload it to VSTS to make it available in your account -->
+
 
