@@ -153,14 +153,15 @@ If you need help check out the [Application Monitoring Hints](/ApplicationMonito
 
 
 # TODO: DevOps Challenge 7 - DevOps for Container #
-In this challenge, you will create a pipeline for container deployment.
+In this challenge, you will create a pipeline for container deployment. If you need help check out the [Container Hints](/Containers/Containers.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| "Dockerize your application" by creating a Dockerfile for it. | 10 |
-|1| Create a new build definition for your application which creates a container image.| 10 |
-|1| On Azure create an Azure Container Registry.|10|
-|1| Extend your pipeline to automatically deploy this image into a container registry. |10|
+|1| "Dockerize your application" by creating a Dockerfile for it. You don't have to have Docker installed to create a Dockerfile. In doubt, check the hints file. | 10 |
+
+|1| Create a new build definition in VSTS for your application which creates a container image.| 10 |
+|1| In Azure Portal create an Azure Container Registry. Extend your pipeline to automatically deploy your image into your container registry. |10|
+|1| Run your container image as an Azure Container instance manually. |10| 
 |1| Create a release pipeline which deploys your container to Azure Container Instances.|10|
 
 # DevOps Challenge 8 - Start in the cloud #
