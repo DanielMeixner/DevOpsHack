@@ -37,6 +37,8 @@ appInsights.TrackEvent("Search/Server/Run", null, measurements);
 
 
 ## Collect telemetry about usage of carousell
+In Views/Home/Index.cshtml add the following lines in the script section in the beginning.
+
 ```
  $('.left.carousel-control').click(function () {          
             window.appInsights.trackEvent('Rotate.Left');
@@ -56,7 +58,7 @@ Install the required extension from the marketplace [here](https://marketplace.v
 
 
 ## Add the task
-Add the Task. Find the Key in the app id in the Azure portal. Have a look at task groups to avoid recurring work when working with differnt environments. Also check the variables to make environment specific settings.
+Add the Task. Find the Key in the app id in the Azure portal. Also create an API key you have to provide. Have a look at task groups to avoid recurring work when working with differnt environments. Also check the variables to make environment specific settings.
 ![Add release annotations task](/ApplicationMonitoring/images/ApplicationMonitoringAnnotationsTask.jpg)
 
 ## Create an availability test in the portal

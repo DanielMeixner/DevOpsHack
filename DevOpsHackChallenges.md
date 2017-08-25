@@ -101,8 +101,8 @@ In this challenge, you will release your application to Azure. If you need help 
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| Create a release definition which will be triggered automatically after a successful build of "CI build". | 30 |
-|1| Add a task to deploy the required infrastructure on Azure. Use the ARM Template provided  in /env/Templates/FullEnvironmentSetupMerged.json.  | 10 |
-|1| Modify your release definition to deploy your application.| 10 |
+|1| Add a task to deploy the required infrastructure on Azure. Use the ARM Template provided  in /env/Templates/FullEnvironmentSetupMerged.json and also use the provided parameters file in the same folder. Overwrite the parameters as required. (See hints.)  | 10 |
+|1| Modify your release definition to deploy your application. Use task "Azure Deploy App Service". Use your the name of your website as App Service Name. Pick to deploy to slot "Dev". *Hint: You can use variables for the values provided. Typically you'd work with values provided by a dropdown list. In our case those values might not exisit yet, so we have to provide them manually.*| 10 |
 |1| Modify your code locally, push the code and watch the pipeline. | 10 |
 |1| Create another release environment which deploys to another deployment slot. | 10 |
 
@@ -120,7 +120,7 @@ If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1|  Create an automated performance test for the start page of your website which will be executed after deploying to environment "Dev". Configure it to simulate 100 users over 2 minutes. Configure it to fail if response times are larger then 5 seconds. *Hint: There's a task which will help you.*| 10 |
-|1|  Create an cloud based load test for your website which will be executed after release to test environment. Use the provided XXX.loadtest & XXX.webtest files. Check the results after you ran the tests.| 10 |
+|1|  Create a (multi-step) cloud based load test for your website which will be executed after release to test environment.Use the loadtest provided. | 10 |
 
 
 ## Bonus Goals ##
@@ -152,7 +152,7 @@ If you need help check out the [Application Monitoring Hints](/ApplicationMonito
 |1| Solve the problem with the specified AppId in the Release Annotation task. | 100 |
 
 
-# TODO: DevOps Challenge 8 - Containers #
+# DevOps Challenge 8 - Containers #
 In this challenge, you will create a pipeline for container deployment. If you need help check out the [Container Hints](/Containers/Containers.md).
 ## Achievements ##
 | # | Achievement   | Maximum score |
@@ -162,8 +162,7 @@ In this challenge, you will create a pipeline for container deployment. If you n
 |1| Create a new build definition in VSTS for your application which creates a container image.| 10 |
 |1| Extend your pipeline to automatically deploy your image into your container registry. |10|
 |1| If you have Docker installed, run the image locally and pull it from your Azure Registry. |10|
-|1| Running a container locally is rather boring. Run your container image as an Azure Container Instance manually on a managed container platform. |10| 
-|1| Create a release pipeline which deploys your container to Azure Container Instances.|10|
+|1| Running a container locally is rather boring. Run your container image as an Azure Container Instance manually on a managed container platform. |10||1| Create a release pipeline which deploys your container to Azure Container Instances.|10|
 
 # DevOps Challenge 9 - Start in the cloud #
 In this challenge you will set up an end to end devops pipeline starting in the Azure Portal. Azure Portal can do a lot of the steps we did so far on it's own. 
