@@ -11,6 +11,10 @@ This is on purpose: We want you to explore and play with the different options o
 ## Configure Build Tasks in VSTS
 ![Configure Build Tasks](/BuildConfiguration/images/buildconfigTasks.jpg)
 
+## Add Build Tasks to publish Artifacts
+![Artifacts](/BuildConfiguration/images/buildconfigArtifacts.jpg)
+
+
 ## Configure Build Triggers, add Unittests
 ![Build definition config](/BuildConfiguration/images/buildconfig1.jpg)
 

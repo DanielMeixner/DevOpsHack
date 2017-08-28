@@ -19,4 +19,5 @@ This is on purpose: We want you to explore and play with the different options o
   ``` 
   -WebsiteName $(WebsiteName) -PartsUnlimitedServerName $(ServerName) -PartsUnlimitedServerAdminLogin AdminUser -PartsUnlimitedServerAdminLoginPassword "(ConvertTo-SecureString -String '$(AdminPassword)' -AsPlainText -Force)" -PartsUnlimitedServerAdminLoginPasswordForTest "(ConvertTo-SecureString -String '$(AdminTestPassword)' -AsPlainText -Force)" -PartsUnlimitedDBName PartsUnlimitedDB -PartsUnlimitedDBCollation SQL_Latin1_General_CP1_CI_AS -PartsUnlimitedDBEdition Basic -PartsUnlimitedHostingPlanName $(HostingPlan) -PartsUnlimitedHostingPlanSKU Standard -PartsUnlimitedHostingPlanWorkerSize 0 -EnableRules -CdnStorageAccountName $(StorageAccountName) -CdnStorageContainerName $(ContainerName) -CdnStorageAccountNameForDev $(StorageAccountName)-dev -CdnStorageContainerNameForDev $(ContainerName)-dev -CdnStorageAccountNameForStaging $(StorageAccountName)-stage -CdnStorageContainerNameForStaging $(ContainerName)-stage  
 ```
-All parameter values like with $(something) are "variables" which to be specified in the variables tab. Make sure you choose a globally unique entry for the servername.
+
+All parameter values like with $(something) are "variables" which to be specified in the variables tab. Make sure you choose a globally unique entry for  servername & websitename.
