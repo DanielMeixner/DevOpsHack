@@ -20,7 +20,6 @@ In this challenge you will create a VSTS account, invite users, set up a project
 |-|-|-|
 |1.| Create another team named "Team Red" within your Team Project and invite some colleagues |10|
 
-
 # DevOps Challenge \#2 - Work Management and process customization #
 In this challenge, you will configure VSTS to trace and plan your work.
 If you need help check out the [Process Customization Hints](/ProcessCustomization/ProcessCustomization.md) and [WorkItem Management Hints](/WorkItemManagement/WorkManagement.md) plus the [Dashboard customization Hints](/Dashboard/Dashboard.md).
@@ -42,7 +41,7 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 |-|-|-|
 |1.| Add a few styling rules to your board highlighting important Items ( e.g. Bugs or Items with a special Tag)| 10 |
 |2.| Add a custom state Testing in your Work Item| 10 |
-|3.| Add a custom field 'Coffee consumed(in liters)' on your work item | 10 |
+|3.| Add a custom field 'Coffee consumed in liters' on your work item | 10 |
 |4.| Modify your work view  to display the new hierarchy level|10|
 |5.| Customize your board to display Id, owner and the value of your new custom field|10|
 
