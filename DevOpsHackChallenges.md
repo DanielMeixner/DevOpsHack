@@ -46,7 +46,6 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 |5.| Customize your board to display Id, owner and the value of your new custom field|10|
 
 
-
 # DevOps Challenge \#3 - Version Control #
 In this challenge, you will set up version control, upload code and configure policies.
 If you need help check out the [Version Control Hints](/VersionControl/VersionControl.md).
@@ -80,7 +79,7 @@ If you need help check out the [Build Configuration Hints](/BuildConfiguration/B
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1| Create a new build definition "CI Build" | 10 |
-|1| Configure your build definition to build the ASP.NET Core website | 10 |
+|1| Configure your build definition to build the ASP.NET Core website. Choose *Hosted VS 2017* as agent or add make sure your agent has the correct .NET SDK installed.  | 10 |
 |1| Modify your build definiton for CI - so set the trigger to build with every new push to the master branch| 10 |
 |1| Clone your build definition, call the clone "PR Build" and set the trigger to Pull Request | 10 |
 |1| Modify your PR Build to run unit tests | 10 |
