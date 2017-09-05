@@ -28,6 +28,7 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 |-|-|-|
 |1.| Create a custom process template called "RedBlueAgileTemplate" based on agile template | 10 |
 |2.|Create a new Portfolio Backlog Level "Scenario"|10|
+
 |3.| Create a new Work Item Type "Vision" above Scenario | 10 |
 |4.| Modify your team project to inherit from this template. | 10 |
 |5.| Customize your board to display items which are done in green + also display Epics |10|
@@ -86,6 +87,7 @@ If you need help check out the [Build Configuration Hints](/BuildConfiguration/B
 |1| Modify your PR Build to run unit tests | 10 |
 |1| Modify your source code locally, push the code, trigger a PR and follow the Pipeline | 10 |
 |1| Add a Build Step to Copy the ARM-Templates into the $(Build.ArtifactStagingDirectory) | 10 |
+|1| Add a Build Step to copy the required test files. See hint file for details. |10|
 
 ## Bonus Goals ##
 | # | Bonus Goal | Maximum score |
