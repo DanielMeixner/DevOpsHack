@@ -9,9 +9,9 @@ In this challenge you will create a VSTS account, invite users, set up a project
 |1.| Create a Microsoft Account on https://signup.live.com/| 10 |
 |2.| Create a Free Microsoft Azure Account on https://azure.microsoft.com/de-de/free/| 10 |
 |3.| Create a VSTS account on http://visualstudio.com| 10 |
-|4.| Give your colleagues access to your account | 10 |
-|5.| Give your team members an appropriate security level | 10 |
-|6.| Create a Team Project called RedBlueTeamProject within your VSTS account| 10 |
+|4.| Create a Team Project called RedBlueTeamProject within your VSTS account| 10 |
+|5.| Give your colleagues access to your account | 10 |
+|6.| Give your team members an appropriate security level | 10 |
 |7.| Invite users to your new Team Project | 10 |
 |8.| Create a team named "Team Blue" within your Team Project and invite your colleagues |10|
 
