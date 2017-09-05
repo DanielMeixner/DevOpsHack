@@ -57,9 +57,19 @@ docker run -d -p 8080:80 <yourFullyQualifiedImageNameIncludingRegistryName>:<you
 
 ## Run image in Azure Container Instances
 1. Open Azure Portal and open up cloud shell.
+
 1. Run this command to create a resource group.
+```
+az group create --name YOURRESOURCEGROUP --location eastus
+```
 1. Run this command to create an instance of your container image provided in your Azure Container Registry.
+```
+az container create --name YOURCONTAINERNAME --image YOURFULLYQUALIFIEDIMAGENAME --resource-group YOURRESOURCEGROUP --ip-address public --registry-login-server YOURLOGINSERVEr --registry-username YOURREGISTRYUSER --registry-password YOURPW
+```
 1. Run this command to query deployment state. If the container is running visit the public URL to view your application.
+```
+az container show --name YOURCONTAINERNAME --resource-group YOURRESOURCEGROUP
+```
 
 ## Depoy to ACI from VSTS
 1. Create a new Release Definition
