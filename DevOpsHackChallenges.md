@@ -100,7 +100,7 @@ In this challenge, you will release your application to Azure. If you need help 
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1| Create a release definition which will be triggered automatically after a successful build of "CI build". | 30 |
+|1| Create a release definition which will be triggered automatically after a successful build of "CI build". *Hint: Use the Azure Resource Group Deployment Task* | 30 |
 |1| Add a task to deploy the required infrastructure on Azure. Use the ARM Template provided  in /env/Templates/FullEnvironmentSetupMerged.json and also use the provided parameters file in the same folder. Overwrite the parameters as required. (See hints.)  | 10 |
 |1| Modify your release definition to deploy your application. Use task "Azure Deploy App Service". Use your the name of your website as App Service Name. Pick to deploy to slot "Dev". *Hint: You can use variables for the values provided. Typically you'd work with values provided by a dropdown list. In our case those values might not exisit yet, so we have to provide them manually.*| 10 |
 |1| Modify your code locally, push the code and watch the pipeline. | 10 |
