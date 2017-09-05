@@ -15,6 +15,9 @@ This is on purpose: We want you to explore and play with the different options o
 ## Add Build Tasks to publish Artifacts
 ![Artifacts](/BuildConfiguration/images/buildconfigArtifacts.jpg)
 
+## Add build task to publich testfiles
+![Testfiles](/BuildConfiguration/images/buildconfigTestSettings.jpg)
+
 
 ## Configure Build Triggers, add Unittests
 TODO: The unit test part in this screenshot is not correct.
