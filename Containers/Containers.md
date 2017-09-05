@@ -31,7 +31,7 @@ docker run -d -p 8080:80 partsunlimitedwebsite
 If you run this locally it will start up your website in your container.
 
 ## Create an Azure Container Registry in Azure Portal
-![Create ACR](images/ContainersACRcreate.jpg)
+![Create ACR](images/ContainersACRCreate.jpg)
 
 ## Create a build definition to create a container
 1. Choose Hosted Linux agents as build agents.
