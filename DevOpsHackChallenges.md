@@ -31,6 +31,7 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 |3.| Create a new Work Item Type "Vision" above Scenario | 10 |
 |4.| Modify your team project to inherit from this template. | 10 |
 |5.| Customize your board to display items which are done in green + also display Epics |10|
+|5.1| Create a style rule to display Items which have not been moved for 7 days in red | 10 |
 |6.| Create work items with releationships, helping you manage the next challenges and keep track of your progress. Create them in a hierarchical manner. Starting at Feature / Epic level.  | 10 |
 |7.| Link work items, view history | 10 |
 |8.| Modify dashboard to show Reports & Stats (Come back to this after completing challenges 4, 5 and 6 to finish this Goal)  | 10 |
@@ -54,12 +55,11 @@ If you need help check out the [Version Control Hints](/VersionControl/VersionCo
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1.| Create a new Git repository in your Team Project| 10 |
-|2.| Clone our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your machine | 10 |
-|3.| Push the code to your new repo in your Team Project  | 10 |
-|4.| Modify your repo to require a pull request to merge code into your master branch  | 10 |
-|5.|Modify your repo to require a Work Item linked to a pull request |10|
-|6.| Configure your repo to require at least one of your colleagues as approver  | 10 |
-|7.| Create a new Branch. Check it out and modify code locally changing the displayed Name of the Demo Website. Commit the change, then initiate and complete a pull request. Link a work item and follow the review process. | 10 |
+|2.| Import our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your VSTS Repository | 10 |
+|3.| Modify your repo to require a pull request to merge code into your master branch  | 10 |
+|4.|Modify your repo to require a Work Item linked to a pull request |10|
+|5.| Configure your repo to require at least one of your colleagues as approver  | 10 |
+|6.| Create a new Branch. Check it out and modify code locally changing the displayed Name of the Demo Website. Commit the change, then initiate and complete a pull request. Link a work item and follow the review process. | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |

@@ -5,19 +5,8 @@ This is on purpose: We want you to explore and play with the different options o
 ## Create a new Git repository in your Team Project ##
 ![Create a new Git repository in your Team Project](/VersionControl/images/VSTSProjectCode.PNG)
 
-## Clone our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your machine ##
-![Clone our sample repository found here to your machine](/VersionControl/images/GitCloneURL1.PNG)
-![Clone our sample repository found here to your machine](/VersionControl/images/GitCloneURL.PNG)
-## Push the code to your new repo in your Team Project ##
-![Push the code to your new repo in your Team Project](/VersionControl/images/VSTSEmptyRepo.PNG)
-
-Navigate to the folder containing your git repo 
-
-`git add remote origin YourVSTSRepoURL`
-
-`git push -u origin --all`
-
-----
+## Clone our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your new VSTS Repository ##
+![Clone our sample repository found here to your machine](/VersionControl/images/VSTSEmptyRepo.PNG)
 
 ## Modify your repo to require a pull request to merge code into your master branch ##
 ![Modify your repo to require a pull request to merge code into your master branch](/VersionControl/images/VSTSProjectBranch.PNG)
