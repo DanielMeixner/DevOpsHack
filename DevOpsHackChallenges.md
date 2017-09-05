@@ -27,13 +27,14 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1.| Create a custom process template called "RedBlueAgileTemplate" based on agile template | 10 |
-|2.| Create a new Work Item Type "Vision" above Scenario | 10 |
-|3.| Modify your team project to inherit from this template. | 10 |
-|4.| Customize your board to display items which are done in green + also display Epics |10|
-|5.| Create work items with releationships, helping you manage the next challenges and keep track of your progress. Create them in a hierarchical manner. Starting at Feature / Epic level.  | 10 |
-|6.| Link work items, view history | 10 |
-|7.| Modify dashboard to show Reports & Stats (Come back to this after completing challenges 4, 5 and 6 to finish this Goal)  | 10 |
-|8.| Modify dashboard to show team members, your current workitems, nr of bugs | 10 |
+|2.|Create a new Portfolio Backlog Level "Scenario"|10|
+|3.| Create a new Work Item Type "Vision" above Scenario | 10 |
+|4.| Modify your team project to inherit from this template. | 10 |
+|5.| Customize your board to display items which are done in green + also display Epics |10|
+|6.| Create work items with releationships, helping you manage the next challenges and keep track of your progress. Create them in a hierarchical manner. Starting at Feature / Epic level.  | 10 |
+|7.| Link work items, view history | 10 |
+|8.| Modify dashboard to show Reports & Stats (Come back to this after completing challenges 4, 5 and 6 to finish this Goal)  | 10 |
+|9.| Modify dashboard to show team members, your current workitems, nr of bugs | 10 |
 
 
 ## Bonus Goals ##
