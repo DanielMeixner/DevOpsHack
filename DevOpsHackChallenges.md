@@ -85,6 +85,7 @@ If you need help check out the [Build Configuration Hints](/BuildConfiguration/B
 |1| Clone your build definition, call the clone "PR Build" and set the trigger to Pull Request | 10 |
 |1| Modify your PR Build to run unit tests | 10 |
 |1| Modify your source code locally, push the code, trigger a PR and follow the Pipeline | 10 |
+|1| Add a Build Step to Copy the ARM-Templates into the $(Build.ArtifactStagingDirectory) | 10 |
 
 ## Bonus Goals ##
 | # | Bonus Goal | Maximum score |
