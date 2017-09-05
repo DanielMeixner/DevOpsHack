@@ -55,7 +55,7 @@ If you need help check out the [Version Control Hints](/VersionControl/VersionCo
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1.| Create a new Git repository in your Team Project| 10 |
-|2.| Import our sample repository found [here](https://github.com/DanielMeixner/DevOpsHackSample) to your new VSTS Repository | 10 |
+|2.| Import our sample repository found [here   (https://github.com/DanielMeixner/DevOpsHackSample)](https://github.com/DanielMeixner/DevOpsHackSample) to your new VSTS Repository | 10 |
 |3.| Modify your repo to require a pull request to merge code into your master branch  | 10 |
 |4.|Modify your repo to require a Work Item linked to a pull request |10|
 |5.| Configure your repo to require at least one of your colleagues as approver  | 10 |
