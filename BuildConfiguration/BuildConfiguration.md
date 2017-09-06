@@ -3,6 +3,7 @@
 This is not a step-by-step guide. Instead it's a collection of screenshots which will help you complete the DevOpsHack challenges.
 This is on purpose: We want you to explore and play with the different options of VSTS. 
 
+*Hint: While editing a build or release definition under the tab 'variables' you can define values which can be accessed during build/release time inside of your task with $(VariableName). There are a few standard variables documented [here for Build](https://www.visualstudio.com/en-us/docs/build/define/variables) and [here for Release](https://www.visualstudio.com/en-us/docs/build/concepts/definitions/release/variables)*
 ## Create Build Definition in VSTS
 ![Create Build Definition](/BuildConfiguration/images/buildconfigNew01.jpg)
 
