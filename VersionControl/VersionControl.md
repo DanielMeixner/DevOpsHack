@@ -20,6 +20,7 @@ This is on purpose: We want you to explore and play with the different options o
 ##  Modify code locally then proceeding to create a pull request ##
 ![Create a branch and check it out](/VersionControl/images/VSTSProjectCodeFiles.PNG)
 
+*Hint: find the file shown in src\PartsUnlimitedWebsite\Views\Home\index.cshtml*
 ![Modify code locally ](/VersionControl/images/ChangeCodeHereMaybe.PNG)
 
 ![Commit your change to your new branch then proceed to create a pull request into master](/VersionControl/images/VSTSCodePullRequest.PNG)
