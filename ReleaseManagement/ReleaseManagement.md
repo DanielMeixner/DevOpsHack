@@ -21,3 +21,7 @@ This is on purpose: We want you to explore and play with the different options o
 ```
 
 All parameter values like with $(something) are "variables" which to be specified in the variables tab. Make sure you choose a globally unique entry for  servername & websitename.
+
+
+## Make sure you specify all parameters
+![Specify paras as parameters](/ReleaseManagement/images/releaseManagementParajpg.JPG)
