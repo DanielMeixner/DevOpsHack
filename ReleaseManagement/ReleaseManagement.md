@@ -1,6 +1,8 @@
 #  Release Management Hints
 This is not a step-by-step guide. Instead it's a collection of screenshots which will help you complete the DevOpsHack challenges.
-This is on purpose: We want you to explore and play with the different options of VSTS. 
+This is on purpose: We want you to explore and play with the different options of VSTS.
+
+*Hint: Before you switch windows or close your configuration, make sure you save your modification.*
 
 ## Create Release Definition in VSTS
 ![Create Release Definition](/ReleaseManagement/images/releaseManagementAdd.jpg)
