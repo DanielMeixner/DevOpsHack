@@ -27,7 +27,7 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1.| Create a custom process template called "RedBlueAgileTemplate" based on agile template | 10 |
-|2.|Create a new Portfolio Backlog Level "Scenario" and "Vision"|10|
+|2.|Create new Portfolio Backlog Levels "Scenario" and "Vision" |10|
 |3.| Create a new Work Item Type "Scenario" and make it the default WorkItem for the Backlog Level "Scenario" do the same for "Vision". | 10 |
 |4.| Modify your team project to inherit from this template. | 10 |
 |5.| Customize your board to display items which are done in green + also display Epics |10|
