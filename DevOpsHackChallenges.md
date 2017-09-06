@@ -6,14 +6,14 @@ In this challenge you will create a VSTS account, invite users, set up a project
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
-|1.| Create a Microsoft Account on https://signup.live.com/| 10 |
-|2.| Create a Free Microsoft Azure Account on https://azure.microsoft.com/de-de/free/| 10 |
-|3.| Create a VSTS account on http://visualstudio.com| 10 |
-|4.| Create a Team Project called RedBlueTeamProject within your VSTS account| 10 |
-|5.| Give your colleagues access to your account | 10 |
-|6.| Give your team members an appropriate security level | 10 |
-|7.| Invite users to your new Team Project | 10 |
-|8.| Create a team named "Team Blue" within your Team Project and invite your colleagues |10|
+|1.| Create a Microsoft Account on https://signup.live.com/| 3 |
+|2.| Create a Free Microsoft Azure Account on https://azure.microsoft.com/de-de/free/| 3 |
+|3.| Create a VSTS account on http://visualstudio.com| 3 |
+|4.| Create a Team Project called RedBlueTeamProject within your VSTS account| 3 |
+|5.| Give your colleagues access to your account | 5 |
+|6.| Give your team members an appropriate security level | 5 |
+|7.| Invite users to your new Team Project | 5 |
+|8.| Create a team named "Team Blue" within your Team Project and invite your colleagues | 5 |
 
 ## Bonus Goals ##
 | # | Bonus Goal   | Maximum score |
@@ -27,8 +27,8 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 | # | Achievement   | Maximum score |
 |-|-|-|
 |1.| Create a custom process template called "RedBlueAgileTemplate" based on agile template | 10 |
-|2.|Create a new Portfolio Backlog Level "Scenario"|10|
-|3.| Create a new Work Item Type "Scenario" and make it the default WorkItem for the Backlog Level "Scenario" | 10 |
+|2.|Create a new Portfolio Backlog Level "Scenario" and "Vision"|10|
+|3.| Create a new Work Item Type "Scenario" and make it the default WorkItem for the Backlog Level "Scenario" do the same for "Vision". | 10 |
 |4.| Modify your team project to inherit from this template. | 10 |
 |5.| Customize your board to display items which are done in green + also display Epics |10|
 |5.1| Create a style rule to display Items which have not been moved for 7 days in red | 10 |
