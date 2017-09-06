@@ -7,8 +7,7 @@ This is on purpose: We want you to explore and play with the different options o
 
 ## Add a task to run a cloud based load test!
 Load test files can be created using Visual Studio 2017. You can use the loadtest files as provided. Make sure you swap the URL in the xml document.
-![Add a task to run a cloud based load test]
-(/AutoTest/images/autoTestLoad.jpg)
+![Add a task to run a cloud based load test](/AutoTest/images/autoTestLoad.jpg)
 
 ## Configure Load Test
 Modify the task like shown below. 
