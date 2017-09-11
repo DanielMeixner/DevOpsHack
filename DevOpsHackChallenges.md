@@ -32,7 +32,7 @@ If you need help check out the [Process Customization Hints](/ProcessCustomizati
 |4.| Modify your team project to inherit from this template. | 10 |
 |5.| Customize your board to display items which are done in green + also display Epics |10|
 |5.1| Create a style rule to display Items which have not been moved for 7 days in red | 10 |
-|6.| Create work items with releationships, helping you manage the next challenges and keep track of your progress. Create them in a hierarchical manner. Starting at Feature / Epic level.  | 10 |
+|6.| Create sample work items with releationships (e.g. parent/child). Create them in a hierarchical manner. Start at Feature / Epic level or higher and build up the whole tree down to Task level. | 10 |
 |7.| Link work items, view history | 10 |
 |8.| Modify dashboard to show Reports & Stats (Come back to this after completing challenges 4, 5 and 6 to finish this Goal)  | 10 |
 |9.| Modify dashboard to show team members, your current workitems, nr of bugs | 10 |

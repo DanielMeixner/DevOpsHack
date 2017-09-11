@@ -11,6 +11,9 @@ Load test files can be created using Visual Studio 2017. You can use the loadtes
 
 ## Configure Load Test
 Modify the task like shown below. 
+* Path to test files is $(System.DefaultWorkingDirectory\YOURBUILDDEFINITIONNAME\testfiles
+* Name of load test file is   LoadTest1.loadtest
+
 ![Config Load Test](/AutoTest/images/autoTestLoadConfig.jpg)
 
 
