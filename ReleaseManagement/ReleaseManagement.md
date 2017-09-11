@@ -1,3 +1,4 @@
+
 #  Release Management Hints
 This is not a step-by-step guide. Instead it's a collection of screenshots which will help you complete the DevOpsHack challenges.
 This is on purpose: We want you to explore and play with the different options of VSTS.
@@ -17,6 +18,8 @@ This is on purpose: We want you to explore and play with the different options o
 ![Add task to deploy infrastructure on Azure](/ReleaseManagement/images/releaseManagementRG.jpg)
 
 ## Override parameters
+
+**Make sure you copy the whole line and do not forget some leading or trailing parts of the string!**
 
   ``` 
   -WebsiteName $(WebsiteName) -PartsUnlimitedServerName $(ServerName) -PartsUnlimitedServerAdminLogin AdminUser -PartsUnlimitedServerAdminLoginPassword "(ConvertTo-SecureString -String '$(AdminPassword)' -AsPlainText -Force)" -PartsUnlimitedServerAdminLoginPasswordForTest "(ConvertTo-SecureString -String '$(AdminTestPassword)' -AsPlainText -Force)" -PartsUnlimitedDBName PartsUnlimitedDB -PartsUnlimitedDBCollation SQL_Latin1_General_CP1_CI_AS -PartsUnlimitedDBEdition Basic -PartsUnlimitedHostingPlanName $(HostingPlan) -PartsUnlimitedHostingPlanSKU Standard -PartsUnlimitedHostingPlanWorkerSize 0 -EnableRules -CdnStorageAccountName $(StorageAccountName) -CdnStorageContainerName $(ContainerName) -CdnStorageAccountNameForDev $(StorageAccountName)-dev -CdnStorageContainerNameForDev $(ContainerName)-dev -CdnStorageAccountNameForStaging $(StorageAccountName)-stage -CdnStorageContainerNameForStaging $(ContainerName)-stage  
