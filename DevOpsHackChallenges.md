@@ -154,7 +154,7 @@ If you need help check out the [Application Monitoring Hints](/ApplicationMonito
 
 
 # DevOps Challenge 8 - Containers #
-In this challenge, you will create a pipeline for container deployment. If you need help check out the [Container Hints](/Containers/Containers.md).
+In this challenge, you will create a pipeline for container deployment. If you need help check out the [Container Hints](/Containers/Containers.md). If you don't want to wait so long for the build to complete you can use this Project instead https://github.com/tclasenOrange/DevOpsHackSimpleProject. 
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
