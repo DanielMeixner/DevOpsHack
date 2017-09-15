@@ -10,7 +10,7 @@ Load test files can be created using Visual Studio 2017. You can use the loadtes
 ![Add a task to run a cloud based load test](/AutoTest/images/autoTestLoad.jpg)
 
 ## Configure Load Test
-Modify the task like shown below. 
+Modify the task like shown below. Don't forget to disable the test Tasks after you have seen that they are working to shorten build times and reduce the build minutes you use as you have only 240 build minutes with the free version.
 * Path to test files is $(System.DefaultWorkingDirectory\YOURBUILDDEFINITIONNAME\testfiles
 * Name of load test file is   LoadTest1.loadtest
 

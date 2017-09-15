@@ -115,7 +115,6 @@ In this challenge, you will release your application to Azure. If you need help 
 # DevOps Challenge #6 - Automated Testing #
 In this challenge, you will integrate automated tests into your application.
 If you need help check out the [Auto Test Hints](/AutoTest/AutoTest.md).
-
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
@@ -153,7 +152,7 @@ If you need help check out the [Application Monitoring Hints](/ApplicationMonito
 
 
 # DevOps Challenge 8 - Containers #
-In this challenge, you will create a pipeline for container deployment. If you need help check out the [Container Hints](/Containers/Containers.md). If you don't want to wait so long for the build to complete you can use this Project instead https://github.com/tclasenOrange/DevOpsHackSimpleProject. 
+In this challenge, you will create a pipeline for container deployment. If you need help check out the [Container Hints](/Containers/Containers.md). If you don't want to wait so long for the build to complete you can use this Project instead https://github.com/tclasenOrange/DevOpsHackSimpleProject. You can then deploy a "WebApp for Containers" and deploy your Container to it. Also you can then easily setup CD through the Azure Portal if your Azure Container Registry supports Web Hooks.
 ## Achievements ##
 | # | Achievement   | Maximum score |
 |-|-|-|
